@@ -1,0 +1,42 @@
+<view>
+ <image class="title-img"></image>
+</view>
+
+<view class="padding-content">
+
+  <view class="padding-text-top line">
+   <view class="h-text">社区名称</view>
+   <view class="h-title padding-textsub-top">万科城三期</view>
+  </view>
+
+  <view class="padding-text-top line">
+   <view class="h-text">详细地址</view>
+   <view class="h-title padding-textsub-top">广东省深圳市南山区某某街道23号</view>
+  </view>
+
+  <view class="bar-flex-start padding-bar-left">
+    <image class="img-icon" src="/assets/img/img.png"></image>
+    <text class="h-subtext color-999 padding-text">物业经理张三 邀请你加入社区</text>
+  </view>
+<!-- 按钮 -->
+
+  <view class="padding-btn-top btn-long padding-title-top bg-green color-white margin-btn-top">
+    <!-- bg-gray -->
+    <view class="h-title h-bold color-white" catchtap="link" data-link="/pages/join/staffinfo/staffinfo">立即加入</view>
+  </view>
+
+</view>
+
+<view class="pos-fixed padding-text-top text-align-center">
+  <view class="bar">
+    <image src="/assets/img/img.png" class="img-icon"></image>
+    <text class=" h-title h-bold padding-text-left">物邻通小程序</text>
+  </view>
+
+  <view class="bar padding-tips-top">
+    <text class="h-subtext color-blue">联系客服</text>
+    <text class="padding-text">|</text>
+    <text class="h-subtext color-blue">关于我们</text>
+  </view>
+
+</view>

@@ -1,0 +1,13 @@
+<view class="padding-content margin-status-top text-align-center">
+  <image src="/assets/img/img.png" class="img-status"></image>
+  <view class="margin-status-text-top h h-normal">审核成功</view>
+  <view class="h-text color-999 padding-status-textsub-left padding-btn-top">你已成为社区管理员，享有公告和留言 等功能权限，赶快去体验吧！</view>
+
+  <view class="padding-btn-top btn-long padding-title-top bg-green color-white margin-btn-front-top">
+    <view class="h-title h-bold color-white" catchtap="link" data-link="/pages/index/index">立即体验</view>
+  </view>
+  <view class="padding-btn-top btn-long padding-title-top btn-bg btn-border-green  margin-btn-top">
+    <view class="h-title h-bold color-green">邀请住户</view>
+  </view>
+
+</view>

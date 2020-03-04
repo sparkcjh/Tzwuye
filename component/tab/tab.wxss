@@ -1,0 +1,55 @@
+@import '../../assets/css/common.wxss';
+/* view{
+  outline: 1rpx solid red;
+} */
+
+.tab{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding:20rpx 0;
+  border-top: 1rpx solid #f6f6f6;
+  background-color: white;
+}
+.tab-item{
+  position: relative;
+}
+
+.tab-item-text{
+  font-size: 22rpx;
+  color: #B2B2B2;
+  text-align: center;
+}
+.tab-item-icon{
+  width: 40rpx;
+  height: 40rpx;
+  padding:0 20rpx;
+}
+
+.active-text{
+  color:#00B4C2;
+}
+/* 提示圆点和提示文本 */
+.dot{
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 20rpx;
+  background-color: red;
+  position: absolute;
+  top:-5rpx;
+  right: 0;
+}
+.tab-tips{
+  background-color: red;
+  color: white;
+  border-radius: 20rpx;
+  font-size: 16rpx;
+  padding:5rpx 10rpx;
+  text-align: center;
+  position: absolute;
+  top:-5rpx;
+  right: -20rpx;
+}

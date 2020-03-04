@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "住户留言",
+  "usingComponents": {
+    "tab": "/component/tab/tab",
+    "blank": "/component/blank/blank",
+    "mp-tabbar": "/component/tarbar/tabbar/tabbar"
+  }
+}

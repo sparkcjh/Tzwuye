@@ -1,0 +1,157 @@
+/* 文字规范 */
+.h{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #000;
+}
+
+.h-title{
+  font-size: 34rpx;
+  color: #333;
+}
+
+.h-text{
+  font-size: 28rpx;
+  color:#666;
+}
+
+.h-subtext{
+  font-size: 26rpx;
+  color: #ccc;
+}
+
+.h-tips{
+  font-size: 26rpx;
+  color: #ccc;
+  text-align: center;
+  padding:25rpx;
+}
+.h-bold{
+  font-weight: bold;
+}
+.h-normal{
+  font-weight: normal;
+}
+
+/* 文字行高*/
+.h-title-height{
+  line-height: 44rpx;
+}
+.h-subtext-height{
+  line-height: 30rpx;
+}
+/* 图片规范 */
+.img{
+  width: 216rpx;
+  height: 216rpx;
+  border-radius: 5rpx;
+}
+.img-sub{
+  width: 190rpx;
+  height: 190rpx;
+  border-radius: 20rpx;
+}
+.margin-img{
+  margin:0 10rpx;
+}
+.margin-top-btn{
+  margin-top: 20rpx;
+}
+/* 头像规范 */
+.img-status{
+  width: 186rpx;
+  height: 186rpx;
+  border-radius: 186rpx;
+}
+.img-author{
+  width: 144rpx;
+  height: 144rpx;
+  border-radius: 144rpx;
+}
+.img-author-sub{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 60rpx;
+}
+/* 图片规范 */
+.img-message{
+  width: 186rpx;
+  height: 186rpx;
+}
+
+/* 分割线规范 */
+.line{
+  border-bottom: 1rpx solid #f6f6f6;
+}
+.line-big{
+  border-bottom: 16rpx solid #f6f6f6;
+}
+.line-block{
+  height: 16rpx;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+/* 间距 */
+/* 块级左右间距 */
+.padding-content{
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.padding-content-top{
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+}
+/* 文本上下边距 */
+.padding-text-top{
+  padding-top:32rpx;
+  padding-bottom: 32rpx;
+}
+.padding-btn-top{
+  padding-top:20rpx;
+  padding-bottom: 20rpx;
+}
+/* 文本及头像。或文本及文本间距 */
+.padding-text{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.padding-text-big{
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+/* 颜色及背景 */
+.color-000{
+  color:#000;
+}
+.color-333{
+  color:#333;
+}
+.color-999{
+  color: #999999;
+}
+.color-white{
+  color:white;
+}
+.color-blue{
+  color:#1F6EFF;
+}
+.color-green{
+  color:#00B4C2;
+}
+.bg-none{
+  background-color: transparent;
+}
+.bg-green{
+  background-color: #00B4C2;
+}
+.bg-gray{
+  background-color: #E5E5E5;
+}
+/* 补充 */
+.pos-fixed{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

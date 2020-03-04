@@ -1,0 +1,26 @@
+@import "/assets/css/common.wxss";
+@import "/assets/css/item.wxss";
+
+/* 补充：边距布局 */
+.margin-status-top{
+  margin-top:200rpx;
+}
+.margin-status-text-top{
+  margin-top: 60rpx;
+}
+.margin-btn-front-top{
+  margin-top: 40rpx;
+}
+.margin-btn-top{
+  margin-top: 20rpx;
+}
+.padding-status-textsub-left{
+  padding-left: 82rpx;
+  padding-right: 82rpx;
+}
+.padding-status-textsub-top{
+  padding-top:20rpx;
+}
+.text-align-center{
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+@import "../../assets/css/common.wxss";
+.bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar-img{
+  display: flex;
+  align-items: center;
+}
+/* 页面内小图标 */
+.bar-icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.bar-icon-right{
+  width: 16rpx;
+  height: 26rpx;
+}

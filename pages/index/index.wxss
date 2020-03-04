@@ -1,0 +1,77 @@
+@import "/assets/css/common.wxss";
+
+.bar{
+  display: flex;
+  align-items: center;
+}
+.bar-flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar-img{
+  display: flex;
+  align-items: center;
+}
+.bar-tips{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 页面内小图标 */
+.bar-icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.bar-icon-right{
+  width: 16rpx;
+  height: 26rpx;
+}
+.bar-icon-bottom{
+  width: 26rpx;
+  height: 16rpx;
+}
+/* 块级边距 */
+.margin-content-left{
+  margin-left: 40rpx;
+}
+.padding-mincontent-top{
+  padding-top:16rpx;
+  padding-bottom: 16rpx;
+}
+.padding-icon-left{
+  padding-left: 10rpx;
+}
+.margin-text-line-top{
+  margin-top:30rpx;
+}
+.margin-text-subline-top{
+  margin-top:14rpx;
+}
+/* 置顶提示块 大小*/
+.tips{
+  padding:4rpx 8rpx;
+  font-size: 22rpx;
+  color: white;
+  background-color: #00B4C2;
+  border-radius: 4rpx;
+}
+.min-text{
+  font-size: 24rpx;
+}
+/* 背景及颜色 */
+.color-orange{
+  color: #FA8C16;
+}
+.bg-orange{
+  background-color: #FFF7F0;
+}
+
+.create-img{
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 120rpx;
+}

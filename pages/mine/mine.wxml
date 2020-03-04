@@ -1,0 +1,21 @@
+
+<!-- 登录后，可以链接到个人资料 -->
+<view class="bar padding-content padding-content-top" catchtap="link" data-link="../../_mine/userinfo/userinfo">
+   <view class="bar-img">
+    <image class="img-author" src="/assets/img/author.png"></image>
+    <text class="h padding-content">点击登录/注册</text>
+   </view>
+   <image class="bar-icon"></image>
+</view>
+
+<view class="line-block"></view>
+
+<view class="bar padding-content padding-text-top" catchtap="link" data-link="../../_mine/manage/manage">
+   <view class="bar-img">
+    <image class="bar-icon" src="/assets/img/logo.png"></image>
+    <text class="h-title padding-text">社区管理</text>
+   </view>
+   <image class="bar-icon bar-icon-right" src="/assets/img/right.png"></image>
+</view>
+
+<tab></tab>

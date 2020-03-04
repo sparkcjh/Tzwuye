@@ -1,0 +1,55 @@
+<!-- 提示区域 -->
+<view class="bar-flex-between bg-orange padding-text-top padding-content">
+  <view class="color-orange min-text">点击关注服务号，获取通讯录最新消息</view>
+  <image src="/assets/img/right.png" class="bar-icon-right"></image>
+</view>
+
+<!--置顶区域 -->
+<view class="">
+  <view class="padding-text-top padding-content line">
+    <image class="bar-icon"></image>
+    <text class="h-text color-000">万科城三期</text>
+  </view>
+
+  <view class="bar margin-content-left padding-mincontent-top line" wx:for="{{arr}}">
+    <view class="tips">置顶</view>
+    <view class="h-text padding-text">根据上级防疫指挥部要求各业主提供居民信息...</view>
+  </view>
+
+  <view class="bar-tips padding-mincontent-top" catchtap="tapMore">
+    <view class="h-subtext">{{statusMore?"收起":"更多"}}</view>
+    <image class="bar-icon-bottom padding-icon-left" src="/assets/img/up.png" wx:if="{{statusMore}}"></image>
+    <image class="bar-icon-bottom padding-icon-left" src="/assets/img/bottom.png" wx:if="{{!statusMore}}"></image>
+  </view>
+
+</view>
+
+<view class="line-big"></view>
+
+<!--  公告区域-->
+<view class="padding-text-top padding-content line" catchtap="link" data-link="/_index/detail/detail">
+  <view>
+  <text class="h-title h-title-height color-000 ">深圳市房屋管理局关于印发《深圳市物业服 务企业和项目经理失信行为记分规则...</text>
+  </view>
+  <view>
+  <text class="h-text h-subtext-height">为进一步规范本市物业管理的评标活动，加强物业管 理招投标评审专家管理，规范评审工作，提高评审质 量保证评标过程的公平,构建首发履约的市场...</text>
+  </view>
+  <view class="margin-text-line-top">
+    <image class="img" src="/assets/img/img.png"></image>
+    <image class="img margin-img" src="/assets/img/img.png"></image>
+    <image class="img" src="/assets/img/img.png"></image>
+  </view>
+  <view class="margin-text-subline-top">
+    <text class="h-subtext">30分钟前发布</text>
+    <text class="h-subtext padding-content">588 评论 · 88 点赞</text>
+  </view>
+</view>
+<view class="line-big"></view>
+
+
+<tab></tab>
+
+<!-- <blank text="发布公告，快速通知社区住户" btntext="登录"></blank> -->
+
+<image src="/assets/img/logo.png" class="create-img" catchtap="link" data-link="/pages/notice/notice"></image>
+

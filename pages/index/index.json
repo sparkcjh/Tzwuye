@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "社区公告",
+  "usingComponents": {
+    "tab":"/component/tab/tab",
+    "blank":"/component/blank/blank",
+    "mp-tabbar": "/component/tarbar/tabbar/tabbar"
+  }
+}

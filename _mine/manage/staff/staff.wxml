@@ -1,0 +1,15 @@
+<view class="bar padding-content">
+
+  <image src="/assets/img/author.png" class="img-author-min"></image>
+
+  <view class="padding-text-top padding-left bar-flex-between line">
+    <view class="">
+      <view class="h-title padding-text-bottom">张三</view>
+      <view class="h-text">13栋2单元508</view>
+    </view>
+    <view class="h-text">业主</view>
+  </view>
+
+</view>
+
+<view class="h-tips">没有更多了</view>

@@ -1,0 +1,61 @@
+@import "/assets/css/common.wxss";
+@import "/assets/css/item.wxss";
+
+.bar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.padding-left{
+  padding-left: 20rpx;
+}
+
+.img-author-min{
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.bar-flex-between{
+  flex:1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 定义边距 */
+.padding-text-bottom{
+  padding-bottom: 10rpx;
+}
+.padding-title-top{
+  padding-top:20rpx;
+  padding-bottom: 20rpx;
+}
+.padding-text-left{
+  padding-left: 10rpx;
+}
+.margin-title-top{
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+}
+.margin-title-left{
+  margin-left: 70rpx;
+}
+.h-text-min{
+  font-size: 20rpx;
+  color:#999;
+}
+/* 定义活跃样式 */
+.active{
+  /* border-bottom: 4rpx solid #00B4C2; */
+  position: relative;
+  font-weight: bold;
+}
+.active::after{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  content: " ";
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom: 4rpx solid #00B4C2;
+}

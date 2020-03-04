@@ -1,0 +1,79 @@
+<!--置顶区域 -->
+<view class="">
+
+
+  <view class="bar margin-content-left padding-mincontent-top line" wx:for="{{arr}}">
+    <view class="tips">置顶</view>
+    <view class="h-text padding-text">根据上级防疫指挥部要求各业主提供居民信息...</view>
+  </view>
+
+
+  <view class="bar-tips padding-mincontent-top" catchtap="tapMore">
+    <view class="h-subtext">{{statusMore?"收起":"更多"}}</view>
+    <image class="bar-icon-bottom padding-icon-left" src="/assets/img/up.png" wx:if="{{statusMore}}"></image>
+    <image class="bar-icon-bottom padding-icon-left" src="/assets/img/bottom.png" wx:if="{{!statusMore}}"></image>
+  </view>
+
+</view>
+
+<view class="line-big"></view>
+
+<!--  留言区域-->
+<view class="padding-text-top padding-content" catchtap="link" data-link="/_message/detail/detail">
+
+
+   <view class="bar-flex-between">
+    <view class="bar">
+      <image class="img-author-mid" src="/assets/img/img.png"></image>
+      <view class="padding-text">
+        <view><text class="h-text h-bold color-000">13栋2单元508</text></view>
+      </view>
+    </view>
+  </view>
+
+    
+<view class="margin-notice-left padding-text-top padding-content-left padding-top-no line h-text">
+
+  <view>
+    <text class="h-title h-title-height">车辆长期占用消防通道,严重影响小区居 民出行;卫生管理脏乱差,反馈未能得到...</text>
+  </view>
+
+    <view class="margin-text-line-top">
+      <image class="img-message" src="/assets/img/img.png"></image>
+      <image class="img-message margin-img" src="/assets/img/img.png"></image>
+      <image class="img-message" src="/assets/img/img.png"></image>
+    </view>
+
+    <!-- 评论条 -->
+    <view class="bar-flex-between margin-text-subline-top">
+      <view class="bar">
+        <view class="h-subtext">30分钟前</view>
+        <text class="h-subtext padding-text color-green">投诉</text>
+      </view>
+
+      <view class="bar">
+        <text class="h-subtext">5</text>
+        <image class="img-icon margin-icon-left" src="/assets/img/img.png"></image>
+      </view>
+    </view>
+    <!-- end 评论条 -->
+
+    <view class="bg-message padding-btn-top padding-text-big margin-text-line-top">
+      <text class="h-text text-line-height">
+        <text class="h-bold">物业经理：</text>
+        <text>长期占道的根本原因是物业公司为了获取更大的收益，不顾业主的反对长期 给外来车辆入内停放，将收到物业的处罚...</text>
+      </text>
+    </view>
+
+  </view>
+
+</view>
+
+<view class="h-tips color-999">没有更多了</view>
+
+
+<tab></tab>
+
+<!-- <blank text="发布公告，快速通知社区住户" btntext="登录"></blank> -->
+
+<image src="/assets/img/logo.png" class="create-img" catchtap="link" data-link="/pages/notice/notice"></image>

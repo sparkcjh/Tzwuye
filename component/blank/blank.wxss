@@ -1,0 +1,28 @@
+@import "/assets/css/common.wxss";
+
+/* 规定空白页边距 */
+.margin-blank-top{
+  margin-top:120rpx;
+}
+.margin-blank-text-top{
+  margin-top:60rpx;
+  margin-bottom: 60rpx;
+}
+
+/* 字体位置居中 */
+.text-align-center{
+  text-align: center;
+}
+
+/* 空白图片大小 */
+.img-blank{
+  width: 276rpx;
+  height: 252rpx;
+}
+
+/* 空白页按钮样式 */
+.btn-blank{
+  margin:0 188rpx;
+  padding:20rpx 0;
+  border-radius: 8rpx;
+}

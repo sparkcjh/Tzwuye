@@ -1,0 +1,35 @@
+@import "../../assets/css/common.wxss";
+.bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar-around{
+  justify-content: space-around;
+}
+.bar-img{
+  display: flex;
+  align-items: center;
+}
+/* 页面内头像图 */
+.img-author-sub{
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 92rpx;
+}
+/* 页面内小图标 */
+.bar-icon{
+  width: 24rpx;
+  height: 30rpx;
+}
+.bar-icon-right{
+  width: 16rpx;
+  height: 26rpx;
+}
+.bar-icon-bottom{
+  width: 26rpx;
+  height: 16rpx;
+}
+.bar-text-bottom{
+  padding-bottom: 18rpx;
+}

@@ -1,0 +1,25 @@
+
+<!-- <view class="bar padding-content padding-content-top">
+   <view class="bar-img">
+    <image class="img-author"></image>
+    <text class="h padding-content">点击登录/注册</text>
+   </view>
+   <image class="bar-icon"></image>
+</view>
+
+<view class="line-block"></view> -->
+<view class="bar padding-content padding-text-top line">
+  <view class="h-title">头像</view>
+   <view class="bar-img">
+    <image class="img-author-sub padding-text"></image>
+    <image class="bar-icon-right" src="/assets/img/right.png"></image>
+   </view>
+</view>
+
+<view class="bar padding-content padding-text-top line">
+  <view class="h-title">名称</view>
+   <view class="bar-img">
+    <text class="h-title color-999 padding-text">请输入</text>
+    <image class="bar-icon-right" src="/assets/img/right.png"></image>
+   </view>
+</view>

@@ -1,0 +1,34 @@
+@import "/assets/css/common.wxss";
+@import "/assets/css/item.wxss";
+
+.bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-img{
+  width: 100%;
+  height: 400rpx;
+}
+.padding-textsub-top{
+  padding-top: 20rpx;
+}
+.margin-btn-top{
+  margin-top: 85rpx;
+}
+.padding-tips-top{
+  padding-top:10rpx;
+}
+.padding-text-left{
+  padding-left: 20rpx;
+}
+/* 居中 */
+.text-align-center{
+  text-align: center;
+}
+.img-icon{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 40rpx;
+}

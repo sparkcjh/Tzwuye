@@ -1,0 +1,8 @@
+<view class="margin-blank-top text-align-center" style="margin-bottom:120rpx;">
+  <image src="/assets/img/img.png" class="img-blank"></image>
+
+  <view class="margin-blank-text-top h-title color-999">{{text}}</view>
+
+  <view class="btn-blank h-bold h-title color-white bg-green">{{btntext}}</view>
+
+</view>

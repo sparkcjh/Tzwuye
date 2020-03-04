@@ -1,0 +1,30 @@
+<view class="bar padding-content">
+  <view class="bar h-title"><text class="padding-title-top active">已读</text><text class="h-text-min padding-text-left">88</text></view>
+  <view class="bar h-title margin-title-left"><text class="padding-title-top">未读</text><text class="h-text-min padding-text-left">8</text></view>
+
+</view>
+
+
+<view class="bar padding-content">
+
+  <image src="/assets/img/author.png" class="img-author-min"></image>
+
+  <view class="padding-text-top padding-left bar-flex-between line">
+    <view class="">
+      <view class="h-title padding-text-bottom">张三</view>
+      <view class="h-text">13栋2单元508</view>
+    </view>
+    <view class="h-text">昨天</view>
+  </view>
+
+</view>
+
+<view class="h-tips">没有更多了</view>
+
+<!-- 按钮 -->
+<view class="pos-fixed">
+  <view class="padding-content padding-btn-top">
+    <!-- bg-gray -->
+    <view class="btn-long padding-title-top bg-green color-white ">再次通知用户</view>
+  </view>
+</view>

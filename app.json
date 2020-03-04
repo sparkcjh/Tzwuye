@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/notice/notice",
+    "_index/detail/detail",
+    "_index/readlist/readlist",
+    "pages/join/join/join",
+    "pages/join/staff/staff",
+    "pages/join/staffinfo/staffinfo",
+    "pages/status/status",
+    "pages/message/message",
+    "_message/detail/detail"
+  ],
+  "subPackages": [
+    {
+      "root": "_mine",
+      "pages": [
+        "manage/manage",
+        "userinfo/userinfo",
+        "manage/means/means",
+        "manage/staff/staff"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "社区公告",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "留言"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "tab": "/component/tab/tab"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+<view class="bar padding-content padding-text-top line">
+  <view class="h-title">名称</view>
+   <view class="bar-img">
+    <text class="h-title color-999 padding-text">请输入</text>
+    <image class="bar-icon-right" src="/assets/img/right.png"></image>
+   </view>
+</view>

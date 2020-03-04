@@ -1,0 +1,25 @@
+@import "/assets/css/common.wxss";
+
+.bar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.padding-left{
+  padding-left: 20rpx;
+}
+
+.img-author-min{
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.bar-flex-between{
+  flex:1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.padding-text-bottom{
+  padding-bottom: 10rpx;
+}

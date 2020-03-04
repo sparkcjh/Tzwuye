@@ -1,0 +1,11 @@
+<view class="bar padding-content padding-mintext-top line">
+  <view class="h-title">
+    <view class="h-title padding-mintext-bottom">社区图片</view>
+    <view class="h-text">将用于社区展示，建议60*60px</view>
+  </view>
+
+   <view class="bar-img">
+    <image class="img-author-sub padding-text" src="/assets/img/author.png"></image>
+    <image class="bar-icon-right" src="/assets/img/right.png"></image>
+   </view>
+</view>

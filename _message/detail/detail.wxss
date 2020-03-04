@@ -1,0 +1,127 @@
+@import "/assets/css/common.wxss";
+@import "/assets/css/item.wxss";
+@import "/pages/notice/notice.wxss";
+
+
+.bar{
+  display: flex;
+  align-items: center;
+}
+.bar-flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar-img{
+  display: flex;
+  align-items: center;
+}
+.bar-tips{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 页面内小图标 */
+.bar-icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.bar-icon-right{
+  width: 16rpx;
+  height: 26rpx;
+}
+.bar-icon-bottom{
+  width: 26rpx;
+  height: 16rpx;
+}
+/* 块级边距 */
+.margin-notice-left{
+  margin-left: 70rpx;
+}
+.margin-content-left{
+  margin-left: 40rpx;
+}
+.margin-icon-left{
+  margin-left: 30rpx;
+}
+.padding-mincontent-top{
+  padding-top:16rpx;
+  padding-bottom: 16rpx;
+}
+.padding-icon-left{
+  padding-left: 10rpx;
+}
+.padding-content-left{
+  padding-left: 20rpx;
+}
+.padding-text-line-top{
+  padding-top:30rpx;
+}
+.margin-text-line-top{
+  margin-top:30rpx;
+}
+.margin-text-subline-top{
+  margin-top:14rpx;
+}
+.margin-tips-left{
+  margin-left: 15rpx;
+}
+/* 置顶提示块 大小*/
+.tips{
+  padding:4rpx 8rpx;
+  font-size: 22rpx;
+  color: white;
+  background-color: #00B4C2;
+  border-radius: 4rpx;
+}
+.min-text{
+  font-size: 24rpx;
+}
+/* 背景及颜色 */
+.color-orange{
+  color: #FA8C16;
+}
+.color-white{
+  color: white;
+}
+.color-green{
+  color:#00B4C2;
+}
+.bg-orange{
+  background-color: #FFF7F0;
+}
+.bg-gray{
+  background-color: #CCCCCC;
+}
+
+/* 布局定位 */
+.pos-width{
+  width: 180rpx;
+  height: 60rpx;
+}
+.pos-relative{
+  position: relative;
+}
+.pos-absoulte{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+/* 图片大小 */
+.img-author-mid{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 70rpx;
+}
+.img-icon{
+  width: 24rpx;
+  height: 24rpx;
+}
+/* 行高 */
+.line-heigh-text{
+  line-height: 34rpx;
+}
+.padding-top-no{
+  padding-top:0;
+}

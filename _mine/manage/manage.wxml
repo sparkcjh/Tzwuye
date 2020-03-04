@@ -1,0 +1,58 @@
+<!-- 社区资料 -->
+<view class="bar padding-content padding-text-top line" catchtap="link" data-link="/_mine/manage/means/means">
+  <view class="bar-img">
+    <image class="bar-icon" src="/assets/img/logo.png"></image>
+    <view class="h-title padding-text">社区资料</view>
+  </view>
+
+   <view class="bar-img">
+    <text class="h-title color-999 padding-text">编辑</text>
+    <image class="bar-icon-right" src="/assets/img/right.png"></image>
+   </view>
+</view>
+
+<!-- 查看住户 -->
+<view class="bar padding-content padding-text-top line" catchtap="link" data-link="/_mine/manage/staff/staff">
+  <view class="bar-img">
+    <image class="bar-icon" src="/assets/img/logo.png"></image>
+    <view class="h-title padding-text">查看住户</view>
+  </view>
+
+   <view class="bar-img">
+    <text class="h-title color-999 padding-text">编辑</text>
+    <image class="bar-icon-right" src="/assets/img/right.png"></image>
+   </view>
+</view>
+
+
+<view class="line-block"></view>
+
+<view class="bar padding-content padding-text-top line">
+  <view class="bar-img">
+    <image class="bar-icon" src="/assets/img/logo.png"></image>
+    <view class="h-title padding-text">社区概览</view>
+  </view>
+
+   <view class="bar-img">
+    <text class="h-title color-999 padding-text">本月</text>
+    <image class="bar-icon-bottom" src="/assets/img/bottom.png"></image>
+   </view>
+</view>
+
+<view class="bar padding-content padding-text-top bar-around ">
+  <view class="bar-img ">
+    <image class="bar-icon padding-text"></image>
+    <view>
+      <view class="bar-text-bottom">公告</view>
+      <view class="">6个</view>
+    </view>
+  </view>
+
+   <view class="bar-img">
+      <image class="bar-icon padding-text"></image>
+      <view>
+        <view class="bar-text-bottom">公告</view>
+        <view class="">6个</view>
+      </view>
+   </view>
+</view>

@@ -1,0 +1,30 @@
+<!-- 发布公告 -->
+<view class="padding-content padding-text-top line">
+  <view class="h-title color-999 bar ">
+    <input class="flex-big" placeholder="请填写公告标题" bindfocus="getFocus" bindblur="getBlur"></input>
+    <view class="h-title color-999">0/16</view>
+  </view>
+</view>
+
+<view class="padding-text-top padding-content area area-height padding-big-bottom">
+  <textarea class="h-title color-999 width-big"></textarea>
+  <text class="text-tips h-title color-999">0/600</text>
+</view>
+
+<view class="padding-content">
+  <view class="img-block" wx:for="{{imgArr}}">
+    <image src="{{item}}" class="img  {{index==1||index==4||index==7?'margin-img':''}}"></image>
+    <image src="/assets/img/logo.png" class="img-close"></image>
+  </view>
+  <view class="img-block" wx:if="{{imgArr.length<9}}">
+    <image src="/assets/img/img.png" class="img {{imgArr.length==1||imgArr.length==4||imgArr.length==7?'margin-img':''}}" catchtap="tapChooseImg"></image>
+  </view>
+</view>
+
+<!-- 浮动条 -->
+<view class="pos-absolute padding-btn-top bg-confirm" style="{{'bottom:'+marginHeight+'rpx;'}}" wx:if="{{dispalyBar}}">
+  <view class="bar flex-justify-between flex-center padding-content">
+    <image class="h-text color-999 img-confirm" src="/assets/img/img.png"></image>
+    <view class="tips bg-gray color-white h-text-confirm">发布</view>
+  </view>
+</view>

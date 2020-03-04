@@ -1,0 +1,16 @@
+<view class="tab">
+  <view class="tab-item" catchtap="tapTab" data-index="0">
+    <image class="tab-item-icon" src="/assets/img/logo.png"></image>
+    <view class="tab-item-text {{index==0?'active-text':''}}">公告</view>
+    <view class="dot"></view>
+  </view>
+  <view class="tab-item" catchtap="tapTab" data-index="1">
+    <image class="tab-item-icon" src="/assets/img/logo.png"></image>
+    <view class="tab-item-text {{index==1?'active-text':''}}">留言</view>
+  </view>
+  <view class="tab-item" catchtap="tapTab" data-index="2">
+    <image class="tab-item-icon" src="/assets/img/logo.png"></image>
+    <view class="tab-item-text {{index==2?'active-text':''}}">我的</view>
+    <view class="tab-tips">消息</view>
+  </view>
+</view>

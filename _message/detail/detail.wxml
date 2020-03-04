@@ -1,0 +1,83 @@
+<!--  公告区域-->
+<view class="padding-text-top padding-content line">
+
+  <view class="bar-flex-between">
+    <view class="bar">
+      <image class="img-author-mid" src="/assets/img/img.png"></image>
+      <view class="padding-text">
+        <view><text class="h-text h-bold color-000">13栋2单元508</text></view>
+        <view class="h-subtext ">1分钟前</view>
+      </view>
+    </view>
+  </view>
+  <view class="margin-notice-left  padding-content-left h-text">
+
+    <view class="margin-text-line-top">
+      <text class="h-title h-title-height">防疫物资专栏中,上线物品不受网上商城 采购品目限制凡是与疫情防控有关的物 资均可按照国家法律法规要求上线卖。</text>
+    </view>
+
+      <view class="margin-text-line-top">
+        <image class="img-message" src="/assets/img/img.png"></image>
+        <image class="img-message margin-img" src="/assets/img/img.png"></image>
+        <image class="img-message" src="/assets/img/img.png"></image>
+      </view>
+
+    <!-- 按钮操作 -->
+    <view class="bar margin-top-btn">
+      <view class="btn btn-border btn-radius h-subtext color-333">置顶</view>
+      <view class="btn btn-border btn-radius h-subtext color-333 btn-mid-margin">删除</view>
+    </view>
+
+
+    <!-- <view class="bar-flex-between margin-text-subline-top"  catchtap="link" data-link="/_index/readlist/readlist">
+      <text class="h-subtext">10人已阅读</text>
+      <view class="h-subtext pos-relative pos-width">
+        <image class="img-author-sub pos-absoulte" style="{{'right:'+index*32+'rpx;'}}" src="/assets/img/img.png" wx:for="{{4}}"></image>
+      </view>
+    </view> -->
+  </view>
+</view>
+<view class="line-big"></view>
+
+<!-- 评论区域 -->
+
+<view class="padding-text-top padding-content">
+
+  <text class="h-title h-bold color-000">回复 999</text>
+
+  <!-- 评论条布局 -->
+  <view class="padding-text-line-top">
+   <view class="bar-flex-between">
+    <view class="bar">
+      <image class="img-author-mid" src="/assets/img/img.png"></image>
+      <view class="padding-text">
+        <view><text class="h-text h-bold color-000">物业经理张三</text></view>
+        <view class="h-subtext ">8分钟前</view>
+      </view>
+    </view>
+   
+    <view>
+      <text class="h-subtext color-999">15</text>
+      <image src="/assets/img/logo.png" class="img-icon padding-icon-left"></image>
+      <image src="/assets/img/logo.png" class="img-icon margin-icon-left" catchtap="tapPress"></image>
+    </view>
+
+   </view>
+    <!-- end 评论条布局 -->
+
+    <view class="margin-notice-left padding-text-top padding-content-left line h-text">防疫物资专栏中上线物品不受网上商城采购品目限制，凡是与疫情防控有关的物资均可按照 国家法律法规要求上线售卖。</view>
+
+  </view>
+
+</view>
+
+<view class="h-tips padding-top-no">没有更多了</view>
+
+<!-- 浮动条 -->
+<view class="pos-absolute padding-btn-top bg-white" style="{{'bottom:'+marginHeight+'rpx;'}}" wx:if="{{dispalyBar}}">
+  <view class="bar flex-center padding-content">
+    <input class="padding-text padding-btn-top h-text color-999 flex-big bg-input border-radius-4" bindfocus="getFocus"></input>
+    <text class="h-subtext padding-textsub-left">6/200</text>
+    <view class="tips bg-gray color-white">置顶</view>
+  </view>
+</view>

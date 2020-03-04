@@ -1,0 +1,31 @@
+/* 样式补充 */
+/* 按钮,距左和距上 */
+.btn{
+  padding:20rpx 36rpx;
+}
+.btn-mid-margin{
+  margin:0 40rpx;
+}
+.btn-radius{
+  border-radius: 10rpx;
+}
+.btn-border{
+  border:1rpx solid #999999;
+}
+.btn-border-green{
+  border:1rpx solid #00B4C2;
+}
+.btn-bg{
+  background-color: transparent;
+}
+.bg-green{
+  background-color: #00B4C2;
+}
+
+
+/* 长按钮 */
+.btn-long{
+  width: 100%;
+  text-align: center;
+  border-radius: 8rpx;
+}
